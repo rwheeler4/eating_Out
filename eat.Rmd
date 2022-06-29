@@ -63,3 +63,27 @@ colPerc(table1)
 ```
 
 This table shows that white people eat out more than other and black people by about a 15% margin.
+
+# Results
+
+## Inferrential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The chi-squared test shows that white people eat significantly more fast food than blacks or other races. The P values of the chi-squared and the Fischer exact tests are 2.287e-06 and 4.633e-06 which are both far less than .05 so we must reject the null hypothesis. 
+
+```{r}
+fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
+```
+According to the Fischer exact test, there is large disparity between whites and blacks in eating out. The same goes for whites and other since the P value is .007 and 1.183e-05. Between blacks and other however, the p value is greater than .05 so there is not much difference. The odds ratio shows that whites are nearly twice as likely (1.902047)to eat out than blacks. 
+
+# Summary
+
+
+
+
+
