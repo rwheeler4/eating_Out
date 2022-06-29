@@ -40,9 +40,17 @@ Explanatory variable is race, also a categorical varaable so we use cat~cat.
 
 Inference: chi-squared and fischer exact tests.
 
-# Descriptive Summaries
+# Descriptive Summary
 
-## Graphical Summaries
+## Graphical Summary
+
+### Barchart
+
+```{r}
+barchartGC(~race + eatout,data=mydata)
+barchartGC(~race + eatout,data=mydata, type="percent")
+
+```
 
 ## Numarical Summary
 
