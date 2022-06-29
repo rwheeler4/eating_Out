@@ -81,7 +81,9 @@ fisherXY(mydata$race,mydata$eatout, printAll = TRUE)
 ```
 According to the Fischer exact test, there is large disparity between whites and blacks in eating out. The same goes for whites and other since the P value is .007 and 1.183e-05. Between blacks and other however, the p value is greater than .05 so there is not much difference. The odds ratio shows that whites are nearly twice as likely (1.902047)to eat out than blacks. 
 
-# Summary
+# Discussion and Conclusion
+
+The original question was: is there a statistical difference between at least two races with the Frequency of eating out? The analysis of the data reveals that white people are significantly more likely to eat out than blacks or other races. Between blacks and other races, there is not much difference regarding frequency of eating out so there is no correlation. We must reject the null hypothesis that There is no difference among the various races with frequency of eating out because whites eat nearly double the fast food that any other race does.
 
 
 
